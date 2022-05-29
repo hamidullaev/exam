@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+   width: 100%;
+   height: 60px;
+   display: flex;
+}
+.navbar h1{
+    margin-top: 8px;
+    margin-left: 80px;
+}
+.nth1{
+    color: rgb(5, 154, 5);
+}
+.items{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 590px;
+}
+.item{
+    margin-right: 20px;
+}
+
+
+
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding-top: 60px;
+    padding-left: 40px;
+    border-radius: 0px 0px 0px 300px;
+    background: url(./images/11.\ Закат.jpg);
+}
+.banner1{
+    width: 50%;
+    height: 400px;
+}
+.banner1 h1{
+    padding-top: 50px;
+    padding-left: 80px;
+    font-size: 50px;
+}
+.banner p{
+    padding-left: 80px;
+    padding-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner1 button{
+    width: 150px;
+    height: 50px;
+    margin-left: 80px;
+    color: rgba(251, 242, 242, 0.83);
+    font-size: 18px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+    border: none;
+    outline: none;
+}
+
+
+.container{
+    width: 100%;
+    height: 60vh;
+    margin-top: 50px;
+    justify-content: space-around;
+    display: flex;
+}
+.container1{
+    width: 30%;
+    height: 300px;
+    margin-top: 60px;
+}
+
+.con_h2{
+    padding-top: 40px;
+    text-align: center;
+}
+.con_p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.con_button{
+    margin-top: 30px;
+    margin-left: 170px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.box_title{
+    width: 50%;
+    height: 500px;
+    margin-top: 30px;
+}
+.box_title h1{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.box_title p{
+    margin-left: 80px;
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box_image{
+    width: 50%;
+    height: 500px;
+}
+.image{
+    width: 90%;
+    height: 100%;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 0px 350px 0px 120px;
+}
+
+
+.header{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+
+    justify-content: space-around;
+    margin: auto;
+    background-color: wheat;
+    border-radius: 50px;
+}
+
+.item3{
+    width: 31%;
+    height: 300px;
+    border-radius: 25px;
+    background-color: #fff;
+    margin-top: 120px;
+}
+
+.header h2{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.lorem{
+    padding-top: 30px;
+    padding-right: 40px;
+    font-size: 20px;
+}
+.header p{
+    margin-top: 10px;
+    margin-left: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.text{
+    text-align: center;
+    margin-top: 40px;
+}
+.text2{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img_banner{
+    width: 90%;
+    height: 200vh;
+    margin-top: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.img_div{
+    width: 45%;
+    height: 580px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 20px;
+    border-radius: 0px 60px 0px 0px;
+}
+.img_div p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image3{
+    width: 100%;
+    height: 88%;
+    border-radius: 0px 60px 0px 0px;
+}
+.subscribes{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    background-color: wheat;
+} 
+.subscribes h1{
+    margin-top: 100px;
+    margin-right: 220px;
+    margin-left: 50px;
+    font-size: 80px;
+    color: rgb(8, 106, 8);
+}
+
+
+
+.cards{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    background-color: wheat;
+}
+.image4{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 250px;
+    border-radius: 40px 40px 0px 0px;
+}
+.image4_p{
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image5{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px 40px 0px 0px;
+}
+.card_h1{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.card_p{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.black_div{
+    width: 90%;
+    height: 60vh;
+    margin-left: 60px;
+    margin-top: 300px;
+    border-radius: 55px;
+    background-color: black;
+}
+.black_div h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+.black_div p{
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.black_div button{
+    width: 190px;
+    height: 60px;
+    background-color: rgb(34, 128, 34);
+    margin-top: 50px;
+    margin-left: 510px;
+    border-radius: 16px;
+}
+.footer{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.span{
+    color: green;
+}
+.h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    word-spacing: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer1{
+    width: 20%;
+    height: 100%;
+    
+}
+.footer1 h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.footer1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.icons{
+    width: 90%;
+    height: 30px;
+    margin-top: 40px;
+}
+.icons i{
+    margin-right: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.fot_p:nth-child(1){
+    margin-top: 60px;
+    font-weight: 900;
+    margin-left: 20px;
+}
+.fot_p{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.p{
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for mobile */
+@media screen and (max-width:690px) {
+   .navbar ul{
+       display: none;
+   }
+   .banner{
+       width: 100%;
+       border-radius: 0px 0px 0px 200px;
+   }
+   .banner h1{
+       font-size: 23px;
+   }
+   .container{
+       flex-wrap: wrap;
+   }
+   .container1{
+       width: 100%;
+   }
+   .con_button{
+       margin-left: 300px;
+   }
+   .box{
+       margin-top: 730px;
+       flex-wrap: wrap;
+   }
+   .box_title{
+       width: 100%;
+       margin-left: 50px;
+   }
+   .box_image{
+       width: 100%;
+       
+   }
+   .image{
+       
+       margin-left: 50px;
+   }
+   .header{
+       height: 300vh;
+       flex-wrap: wrap;
+       margin-top: 600px;
+   }
+   .item3{
+       width: 90%;
+   }
+   .img_div{
+       width: 100%;
+   }
+   .subscribes{
+       margin-top: 1500px;
+   }
+   .h3{
+       margin-top: 1200px;
+       font-size: 13px; 
+   }
+   .subscribes h1{
+       font-size: 35px;
+       margin-left: 20px;
+       margin-right: 130px;
+   }
+   .card{
+       width: 80%;
+       margin-left: 80px;
+       padding-top: 15px;
+       padding-left: 5px;
+   }
+   .image5{
+       object-fit: cover;
+   }
+   .black_div{
+       margin-top: 2100px;
+   }
+   .black_div button{
+       display: none;
+   }
+   
+   .footer{
+    flex-wrap: wrap;
+   }
+   .footer1{
+    width: 100%;
+    padding-left: 150px;
+}
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
